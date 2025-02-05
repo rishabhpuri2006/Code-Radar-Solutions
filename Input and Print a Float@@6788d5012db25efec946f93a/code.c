@@ -2,6 +2,6 @@
 int main();{
     int n;
     scanf("%f",&n);
-    print("%d",n);
+    print("%f",n);
     return 0;
 }
