@@ -6,7 +6,7 @@ scanf("%d",&y);
 scanf("%d",&z);
 float average;
 average=(x+y+z)/3;
-printf("Average: ""%.2f");
+printf("Average: ""%.2f",average);
 
     return 0;
 }
