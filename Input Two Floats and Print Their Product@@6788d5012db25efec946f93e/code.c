@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    float x,y:
+    float x,y;
     scanf("%f",x);
     scanf("%f",y);
     float m;
