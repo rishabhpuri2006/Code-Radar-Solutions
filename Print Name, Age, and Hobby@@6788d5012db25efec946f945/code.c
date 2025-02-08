@@ -10,9 +10,9 @@ int main() {
     scanf("%s", hobby);  // Read the hobby
 
     // Printing the details in order
-    printf("\nName: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Hobby: %s\n", hobby);
+    printf("\nName: %s\n",name);
+    printf("Age: %d\n",age);
+    printf("Hobby: %s\n",hobby);
 
     return 0;
 }
