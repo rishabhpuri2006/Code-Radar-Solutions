@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char name[5], hobby[5];
+    char name[10], hobby[10];
     int age;
 
     // Taking user input
