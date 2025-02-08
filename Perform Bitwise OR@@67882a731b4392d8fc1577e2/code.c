@@ -12,7 +12,7 @@ int main() {
     result = num1 | num2;
 
     // Printing the result
-    printf("%d\n", num1, num2, result);
+    printf("%d", num1, num2, result);
 
     return 0;
 }
