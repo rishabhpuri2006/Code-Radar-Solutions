@@ -6,7 +6,7 @@ int main() {
     int leadingZeroes = countLeadingZeroes(num);
 
     // Print the result
-    printf("%u%d\n", num, leadingZeroes);
+    printf("%u%d", num, leadingZeroes);
 
     return 0;
 }
