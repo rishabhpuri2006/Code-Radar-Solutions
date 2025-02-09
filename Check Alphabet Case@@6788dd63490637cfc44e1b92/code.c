@@ -11,6 +11,7 @@ int main() {
         printf("Uppercase");
     } else{
         printf("Lowercase");
-    return 0;
-}
+        } 
+         return 0;
+
 }
