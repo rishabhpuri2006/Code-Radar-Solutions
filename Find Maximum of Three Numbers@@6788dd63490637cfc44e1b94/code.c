@@ -12,11 +12,6 @@ int main()
     if(c>a && c>b){
         printf("%d",c);
     }
-    
-    }
-    else{
-        printf("it is not a three digit number");
-    }
 
     return 0;
 }
