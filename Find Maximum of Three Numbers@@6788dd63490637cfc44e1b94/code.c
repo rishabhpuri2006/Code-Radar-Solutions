@@ -10,7 +10,7 @@ int main()
     else if(b>a && b>c){
         printf("%d",b);
     }
-    if(c>a && c>b){
+    else{
         printf("%d",c);
     }
 
