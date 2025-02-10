@@ -4,17 +4,14 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if(x==y==z){
+    if(x==y&y==z){
         printf("Equilateral");
     }
-    //else if(x==y!=z||x==z!=y||y==z!=x){
-    //printf("Isosceles");
-    //}
-    else if(x!=y!=z){
-    printf("Scalene");
-     }
-    else{
+    else if(x==y||x==z||y==z){
     printf("Isosceles");
     }
+    else{
+    printf("Scalene");
+     }
     return 0;
 }
