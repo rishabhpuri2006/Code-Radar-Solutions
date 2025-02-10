@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if(x==y&y==z){
+    if(x==y&y==z){//yaha teeno ikathe nhi equal kr skte 
         printf("Equilateral");
     }
     else if(x==y||x==z||y==z){
