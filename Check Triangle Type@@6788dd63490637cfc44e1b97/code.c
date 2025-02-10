@@ -7,9 +7,9 @@ int main() {
     if(x==y==z){
         printf("Equilateral");
     }
-    else if(x==y!=z||x==z!=y||y==z!=x){
-        printf("Isosceles");
-    }
+    //else if(x==y!=z||x==z!=y||y==z!=x){
+       // printf("Isosceles");
+   // }
     else{
 
     printf("Scalene");
