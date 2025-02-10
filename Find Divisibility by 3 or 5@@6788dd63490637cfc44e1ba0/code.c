@@ -4,7 +4,6 @@ int main() {
     int num;
 
     // Prompt the user for input
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Check divisibility
