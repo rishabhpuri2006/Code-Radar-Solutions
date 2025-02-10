@@ -12,7 +12,5 @@ else if(x>y){
 else{
     printf("Second");
 }
-
-    printf("");
     return 0;
 }
