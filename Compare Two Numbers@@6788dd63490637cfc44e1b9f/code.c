@@ -10,7 +10,7 @@ else if(x>y){
     printf("First");
 }
 else{
-    printf("Second")
+    printf("Second");
 }
 
     printf("");
