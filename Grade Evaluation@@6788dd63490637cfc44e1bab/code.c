@@ -17,14 +17,5 @@ int main() {
     else if(x==F){
         printf("Fail");
     }
-    else if(x==6){
-        printf("Saturday");
-    }
-    else if(x==7){
-        printf("Sunday");
-    }
-    else{
-        printf("Invalid");
-    }
     return 0;
 }
