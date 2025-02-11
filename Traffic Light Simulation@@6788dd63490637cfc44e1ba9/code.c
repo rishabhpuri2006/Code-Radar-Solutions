@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
 char x;
+scanf("%s",&x);
 if(x=='R'){
     printf("Stop");
 }
@@ -12,5 +13,6 @@ else if(x=='Y'){
 }
 else{
     printf("Invalid input");
-}return 0;
+}
+return 0;
 }
