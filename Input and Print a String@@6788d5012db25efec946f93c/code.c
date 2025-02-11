@@ -4,7 +4,7 @@ int main() {
     char word[100];  // Array to store the input word
 
     // Taking input using scanf
-    printf("");
+   // printf("");
     scanf("%s", word);
 
     // Printing the word using printf
