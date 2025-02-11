@@ -1,21 +1,27 @@
 #include <stdio.h>
+
 int main() {
     char ch;
-    scanf("%c",&ch);
-    if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z')){
-        if((ch="a","e","i","o","u")||(ch="A","E","I","O","U")){
-            printf("Vowel");
+    scanf("%c", &ch);
+
+    // Check if the character is a letter
+    if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+        // Check for vowels (both lowercase and uppercase)
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+            printf("Vowel\n");
+        } else {
+            printf("Consonant\n");
         }
-        else{
-            printf("consonant");
-        }
-        
     }
-    else if(ch>='0' && ch<='9'){
-        printf("Digit");
+    // Check if the character is a digit
+    else if (ch >= '0' && ch <= '9') {
+        printf("Digit\n");
     }
-    else{
-        printf("Special Character");
+    // If not a letter or digit, it's a special character
+    else {
+        printf("Special Character\n");
     }
+
     return 0;
 }
