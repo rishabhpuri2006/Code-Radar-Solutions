@@ -18,9 +18,9 @@ for (int i=0;i<=x-1;i++){
     if(arr[i]!=max && smax<arr[i]){
         smax=arr[i];
     }
-    else{
-        smax=-1;
-    }
+    if{smax==INT_MIN;
+    smax=-1;
+        }
 }
 printf("%d",smax);
 return 0;
