@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int x;
-    scanf("%d",x);
+    scanf("%d",&x);
     int arr[x];
     int max=arr[0];
     for (int i=0;i<=x-1;i++){
