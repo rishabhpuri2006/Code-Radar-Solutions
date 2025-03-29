@@ -12,10 +12,10 @@ for(int i =0;i<=x-1;i++){
     if(i%2==0){
     evencount++;
     }
-    else if(
+    else{
     
     oddcount++;
-    )
+}
 }
 printf("%d ",evencount);
 printf("%d",oddcount);
