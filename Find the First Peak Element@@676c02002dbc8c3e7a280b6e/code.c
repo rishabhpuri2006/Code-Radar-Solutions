@@ -13,6 +13,9 @@ for(int i=0;i<=x-1;i++){
         printf("%d",arr[i]);
         break;
     }
+    else{
+        printf("-1");
+    }
 }
 return 0; 
 }
