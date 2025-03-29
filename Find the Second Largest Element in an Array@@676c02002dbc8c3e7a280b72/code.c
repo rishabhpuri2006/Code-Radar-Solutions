@@ -14,7 +14,7 @@ for(int i=0;i<=x-1;i++){
         max=arr[i];
     }
 }
-for (int i=0;i<=6;i++){
+for (int i=0;i<=x-1;i++){
     if(arr[i]!=max && smax<arr[i]){
         smax=arr[i];
     }
