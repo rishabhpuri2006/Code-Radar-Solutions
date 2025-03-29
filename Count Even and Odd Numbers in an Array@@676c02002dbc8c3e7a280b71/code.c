@@ -12,9 +12,9 @@ for(int i =0;i<=x-1;i++){
     if(i%2==0){
     evencount++;
     }
-    else if(i%2!=0){
+    else if{
+    
     oddcount++;
-    }
     }
 }
 printf("%d ",evencount);
