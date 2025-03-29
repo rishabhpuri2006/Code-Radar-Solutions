@@ -13,7 +13,7 @@ int main(){
         max=arr[i];
     }
     for (int i=0;i<=x-1;i++){
-        if(min>arr[x-1]);
+        if(min<arr[x-1]);
         min=arr[i];
 }
 }
