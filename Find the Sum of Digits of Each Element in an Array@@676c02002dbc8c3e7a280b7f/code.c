@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>  // For abs()
 
 // Function to calculate sum of digits of a number
 int sumOfDigits(int num) {
     int sum = 0;
+    num = abs(num);  // Convert negative numbers to positive
+    
     while (num != 0) {
         sum += num % 10;  // Extract last digit and add to sum
         num /= 10;        // Remove last digit
@@ -14,11 +17,13 @@ int main() {
     int n;
 
     // Input array size
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     int arr[n], sumArray[n];
 
     // Input array elements
+    printf("Enter %d integers:\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -29,6 +34,7 @@ int main() {
     }
 
     // Print the resulting array
+    printf("Sum of digits array:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", sumArray[i]);
     }
