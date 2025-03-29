@@ -12,6 +12,6 @@ for (int i=0;i<=4;i++){
     printf("%d",arr[i]);
  //   for(j=0;j<=4;j++){
         
-    //}
+    }
     return 0;
 }
