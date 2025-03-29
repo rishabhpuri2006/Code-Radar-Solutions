@@ -18,10 +18,10 @@ for (int i=0;i<=x-1;i++){
     if(arr[i]!=max && smax<arr[i]){
         smax=arr[i];
     }
-    if(smax==INT_MIN);
-    smax=-1;
+    if(smax==INT_MIN){
+    smax=-1;}
     
 }
-printf("%d",smax);
+printf("%d\n",smax);
 return 0;
 }
