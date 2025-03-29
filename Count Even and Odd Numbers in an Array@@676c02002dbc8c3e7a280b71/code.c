@@ -9,7 +9,7 @@ for(int i=0;i<=x-1;i++){
 int evencount=0;
 int oddcount=0;
 for(int i =0;i<=x-1;i++){
-    if(i%2==0){
+    if(arr[i]%2==0){
     evencount++;
     }
     else{
