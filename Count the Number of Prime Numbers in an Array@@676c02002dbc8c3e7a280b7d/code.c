@@ -11,8 +11,8 @@ for (int i=0;i<=x-1;i++){
     for(int j=2;j<=100;j++)
     if(arr[i]%j==0){
     printf("%d",arr[i]);
-    break;
     count++;
+    break;
     }
     }
     return 0;
