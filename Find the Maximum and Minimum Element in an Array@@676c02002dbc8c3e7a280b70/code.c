@@ -11,7 +11,7 @@ int main(){
     for (int i=0;i<=x-1;i++){
         if(max<arr[i])
         max=arr[i];
-    }
+    
     if(min<arr[0]){
         min=arr[i];
 }
