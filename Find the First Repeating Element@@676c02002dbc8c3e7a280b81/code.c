@@ -7,11 +7,23 @@ scanf("%d",&x);
 int arr[x];
 for(int i=0;i<=x-1;i++){
     scanf("%d",&arr[i]);
-}   printf("%d\n",x);
+} 
+int duplicate=0;
 for (int i=0;i<=x-1;i++){
-    printf("%d ",arr[i]);
- //   for(j=0;j<=4;j++){
-        
+for(int j=i+1;j<=x-1;j++){
+    if(arr[i]==arr[j]){
+        printf("%d\n",arr[i]);
+        duplicate=1;
+        break;
     }
+}
+if(duplicate){
+    break;
+}
+}
+if(!duplicate){
+    printf("-1\n");
+}
+
     return 0;
 }
