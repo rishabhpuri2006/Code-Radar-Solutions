@@ -17,13 +17,12 @@ int main() {
     int n;
 
     // Input array size
-    printf("Enter the number of elements: ");
+
     scanf("%d", &n);
 
     int arr[n], sumArray[n];
 
     // Input array elements
-    printf("Enter %d integers:\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -34,7 +33,6 @@ int main() {
     }
 
     // Print the resulting array
-    printf("Sum of digits array:\n");
     for (int i = 0; i < n; i++) {
         printf("%d ", sumArray[i]);
     }
