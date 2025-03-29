@@ -6,10 +6,10 @@ int main(){
     for(int i=0;i<=x-1;i++);
     scanf("%d",&arr[i]);
     for(int i=0;i<=x-1;i++){
-        if(arr[i]>=arr[i-1]){
+        if(arr[i]>arr[i-1]){
             printf("YES");
         else{
-            printf("NO")
+            printf("NO");
         }
         }
     }
