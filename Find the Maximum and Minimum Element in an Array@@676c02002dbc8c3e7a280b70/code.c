@@ -15,7 +15,7 @@ int main(){
     if(min<arr[0]);
         min=arr[i];
 }
-}
+
 printf("%d ",min);
 printf("%d",max);
 return 0;
