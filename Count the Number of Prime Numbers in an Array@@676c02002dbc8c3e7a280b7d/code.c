@@ -9,6 +9,7 @@ for (int i=0;i<=x-1;i++){
     if(arr[i]%j==0){
     printf("%d",arr[i]);
     count++;
+    break;
     }
     }
     return 0;
