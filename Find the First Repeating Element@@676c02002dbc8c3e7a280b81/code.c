@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 int main()
 {
-int arr[5];
+int x;
+scanf("%d",&x);
+int arr[x];
 for(int i=0;i<=4;i++){
-    int a =i+1;
+    printf("enter element number %d\n",i);
     scanf("%d",&arr[i]);
 }
-for(int i=0;i<=4;i++){
-printf("%d ",arr[i]);
+for (int i=0;i<=4;i++){
+    for(j=0;j<=4;j++){
+        
+    }
+    return 0;
 }
-
-return 0;
-} 
