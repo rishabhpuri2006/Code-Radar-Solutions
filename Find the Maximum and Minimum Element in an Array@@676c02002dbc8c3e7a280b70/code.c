@@ -2,9 +2,9 @@
 int main(){
     int x;
     scanf("%d",&x);
-    int arr[x];
     int max=arr[0];
     int min=arr[0];
+    int arr[x];
     for (int i=0;i<=x-1;i++){
         scanf("%d",&arr[i]);
     //int max=arr[0];
