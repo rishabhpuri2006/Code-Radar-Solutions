@@ -4,5 +4,6 @@ int main(){
     for(int i=1;i<=n;i++){
     multi=multi*i;
     }
-    printf("%d x %d = %d\n",n,i,multi)
+    printf("%d x %d = %d\n",n,i,multi);
+    return 0;
 }
