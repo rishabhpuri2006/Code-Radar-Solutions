@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <limits.h>
+#include <stdlib.h>
 
 int main() {
     int n;
-
-    // Input array size
     scanf("%d", &n);
 
     if (n < 2) {
@@ -12,27 +10,34 @@ int main() {
     }
 
     int arr[n];
-
-    // Input array elements
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Initialize with the smallest possible integer values
-    int max1 = INT_MIN, max2 = INT_MIN;
+    // Initialize indices of two max magnitude numbers
+    int idx1 = 0, idx2 = 1;
 
-    // Find the top two maximum numbers
-    for (int i = 0; i < n; i++) {
-        if (arr[i] > max1) {
-            max2 = max1;
-            max1 = arr[i];
-        } else if (arr[i] > max2) {
-            max2 = arr[i];
+    // Ensure proper initial order based on magnitude
+    if (abs(arr[idx2]) > abs(arr[idx1])) {
+        int temp = idx1;
+        idx1 = idx2;
+        idx2 = temp;
+    }
+
+    for (int i = 2; i < n; i++) {
+        int mag = abs(arr[i]);
+
+        if (mag > abs(arr[idx1])) {
+            idx2 = idx1;
+            idx1 = i;
+        } else if (mag > abs(arr[idx2])) {
+            idx2 = i;
         }
     }
 
-    int product = max1 * max2;
-    printf("%d", product);
+    int product = arr[idx1] * arr[idx2];
+
+    printf("%d",product);
 
     return 0;
 }
